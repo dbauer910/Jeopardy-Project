@@ -1,6 +1,137 @@
 
 .button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%; 
+}
+
+#Play:hover{
+    color: aqua;
+    background-color: blueviolet;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#Play {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+    padding: 6px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 12vw;
+    position: sticky;
+  }
+
+
+  /* Notes for Round 2, because the First Round notes are supposed to exclusively be linked to the style.css CSS, not the rounds.css one */
+
+  #div1-round_player {
     text-align: center;
-    align-items: center;
-    
+}
+
+#div1-round_player {
+    margin: auto;
+    width: 50%;
+}
+
+/* .flex-container {
+    display: flex;
+    justify-content: center;
+} */
+
+#div2-table {
+    display: flex;
+    justify-content: center;
+}
+
+#div3-inputs {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+final-title {
+    width: 80%
+}
+
+#div4-guess-pass {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 2em;
+}
+
+#table1 {
+    width: 80%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+td, th {
+    border: 2px solid black;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 12vw;
+    position: sticky;
+  }
+
+#div5-next {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 800px;
+}
+
+#div6-prev {
+        text-align: center;
+        padding-top: 50px;
+        padding-right: 800px;
+}
+
+#final-div1-round_player {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+td:hover{
+    color: aqua;
+    background-color: blueviolet;
+}
+
+#final-q {
+   width: 400px; 
+   text-align: center;
+   border-style: solid;
+   border: 20px;
+
+}
+
+#final-input-bet {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#final-input-answer {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
 }

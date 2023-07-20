@@ -1,3 +1,67 @@
 .grid {
     
 }
+
+#div1-round_player {
+    text-align: center;
+}
+
+#div1-round_player {
+    margin: auto;
+    width: 50%;
+}
+
+/* .flex-container {
+    display: flex;
+    justify-content: center;
+} */
+
+#div2-table {
+    display: flex;
+    justify-content: center;
+}
+
+#div3-inputs {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#div4-guess-pass {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 2em;
+}
+
+#table1 {
+    width: 80%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+td, th {
+    border: 2px solid black;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 12vw;
+    position: sticky;
+  }
+
+#btn-next {
+    text-align: center;
+}
+
+#div5-next {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 800px;
+}
+
+td:hover{
+    color: aqua;
+    background-color: blueviolet;
+}
